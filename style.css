@@ -1,0 +1,278 @@
+*
+{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar
+{
+    height: 60px;
+    width:100%;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.nav_comp
+{
+    height:50px;
+    width:110px;  
+}
+.logo
+{
+    height:50px;
+    width:106px;
+    background-image: url("amazon logo.png");
+    background-size:cover; 
+}
+.border
+{
+    border: 1px solid transparent;
+}
+.border:hover
+{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.location
+{
+    height:50px;
+    color: white;
+    width:80px;
+    padding-top:5px;   
+}
+.icon
+{
+    display: flex;
+    
+ }
+.line1
+{
+    font-size: .8rem;
+    color:#cccccc;
+    padding-left: 15px;
+}
+.line2
+{
+    font-size: 1rem;
+    color:#ffffff;   
+}
+.searchbar
+{
+    background-color: orange;
+    /* width: 50%; */
+    width:700px;
+    display:flex;
+    height: 40px;
+    border-radius: 3px;
+    align-content: center; 
+}
+.all
+{
+    border-radius: 3px;
+    text-align: center;
+}
+.search{
+    
+    width: 625px;;
+}
+.icon{
+    align-items: center;
+    margin-left:5px;
+}
+.hello
+{
+    color:white;
+    padding:5px;
+}
+.hi
+{
+    font-size: .8rem;
+}
+.list
+{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cart i
+{
+    font-size:30px;
+}
+.cart{
+    font-weight: 600;
+    font-size: 1rem;
+    color:white;
+    display:flex;
+}
+.searchbar:hover{
+    border:2px solid orange;
+}
+.second_bar
+{
+    width: 100%;
+    height: 40px;
+    background-color: #404444;
+    color: white;
+    align-items:center;
+    display:flex;
+    justify-content: space-evenly;
+}
+.ops_sec p{
+
+    display:inline;
+    margin-left: 15px;
+    padding:10px 5px;   
+}
+.ops_sec {
+    width:95%;
+     display:flex;   
+}
+.contentimg
+{
+    background-image: url("top image.jpg");
+    background-size: cover;
+    height:350px;
+    display:flex;
+    flex-direction:column; 
+    justify-content: flex-end;
+    align-items: center;
+}
+.back_text
+{
+   width:90%;
+   height:40px;
+   background-color: white;
+   color:black;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+ .shop a,.back_text a{
+    color:rgba(32, 45, 194, 0.659);
+    cursor: pointer;
+}
+.shop
+{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #cddcdc;
+    flex-wrap: wrap;
+    padding-bottom:20px;
+}
+.box
+{
+    margin-top: 25px;
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding:15px; 
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;      
+}
+.box1img
+{
+    width:100%;
+    height:100%;
+    background-size: cover; 
+}
+.outers
+{
+    width:100%; 
+     height:80%; 
+    display:flex;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+    flex-wrap: wrap; 
+}
+/* .box9 
+{
+    margin-top: 25px;
+    height:400px;
+    width:23%;
+    background-color: white;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+
+
+} */
+.sm1
+{
+    width:120px;
+    height:120px;
+    background-size: cover;
+}
+.footer1
+{
+    height:40px;
+    background-color:#404444;
+    color:white;
+    text-align:center;
+    padding:12px 0px;
+    box-sizing: border-box;
+    
+}
+.footer1:hover
+{
+    background-color:#838989;
+    cursor: pointer;
+}
+.mainfooter
+{
+    background-color: #272831;
+    color:white;
+    height:450px;
+}
+.footer2
+{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.sub1,.sub2,.sub3,.sub4
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:80px;
+   
+}
+.footer2 a
+{ 
+    text-decoration: none; 
+    color:white;
+    line-height: 30px;
+}
+.footer2 a:hover
+{ 
+    text-decoration: underline; 
+}
+.footer2 p
+{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.last select{
+    width:150px;
+    height:40px;
+    background-color: transparent;
+    color:white;
+    border-radius: 3px;
+}
+.last{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    
+}
+.bot
+{
+    border:.5px solid rgb(146, 142, 142);
+    padding:10px;
+    display:inline;
+    border-radius: 3px;
+    margin-left:10px;
+}
